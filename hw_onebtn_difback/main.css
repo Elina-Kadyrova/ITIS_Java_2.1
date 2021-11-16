@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    margin: 200px;
+    background-color: #7f7f7f;
+}
+
+button {
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+    color: black;
+    transition: transform .4s ease-in;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+}
+
+.change-button {
+    background-color: #cf82cc;
+    color: black;
+}
+
+button:hover {
+	transform: scale(1.5);
+}
